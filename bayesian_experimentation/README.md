@@ -30,14 +30,6 @@ For this particular exercise, I did not use PyMC which is another library that c
  - Plotly
 
 
-#### Project Structure
-.
-├── app.py                 # Streamlit application
-├── experiment.py          # Experiment simulation and Bayesian analysis
-├── visualization.py       # Plotting functions
-├── requirements.txt
-└── README.md
-
 #### Running the Application
 
 Install the project dependencies:
