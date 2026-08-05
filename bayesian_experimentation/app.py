@@ -1,6 +1,5 @@
 import streamlit as st
 from experiment import ExperimentSimulator, ExperimentAnalysis
-from visualization import plot_experiment_data_sample
 from visualization import plot_experiment_trends
 from visualization import plot_lift_posteriors
 import numpy as np
@@ -44,10 +43,6 @@ if st.button('Run Simulation'):
     experiment_df = experiment.run_simulator()
 
     st.session_state.experiment_data = experiment_df 
-
-    exp_sample = plot_experiment_data_sample(st.session_state.experiment_data)
-
-    st.session_state.experiment_sample = exp_sample
 
     group_comparison = experiment.generate_group_comparison(st.session_state.experiment_data)
 
