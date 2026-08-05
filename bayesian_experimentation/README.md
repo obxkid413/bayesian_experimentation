@@ -23,10 +23,10 @@ For this particular exercise, I did not use PyMC which is another library that c
 
 
 #### Libraries used here include:
- - Streamlit for visualization and app dev
+ - Streamlit
  - Pandas 
  - Numpy
- - Scipy for a couple pieces not currently in the app yet
+ - Scipy (for a couple pieces not currently in the app yet)
  - Plotly
 
 
