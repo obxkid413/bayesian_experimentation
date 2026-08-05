@@ -9,4 +9,3 @@ dependencies:
   - pip:
       - streamlit
       - plotly
-prefix: /opt/anaconda3/envs/bayes_experiment
