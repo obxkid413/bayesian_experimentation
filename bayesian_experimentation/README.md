@@ -13,7 +13,7 @@ An interactive Streamlit app that allows a user to simulate some A/B testing dat
 
 #### Methodology 
 
-The methods used here are important to discuss and make transparent.  I want to point out a couple things that I think will make things more clear.  In this particular app, the treatment and control groups are treated as independent groups.  Based on my reading, this is certainly defensible, but I have also read that it can be better to not make this assumption. Without this assumption, the calculations for generating the posterior becomes a bit more complicated.  The posterior lift distribution was computed as follows from the control and treatment posteriors:
+The methods used here are important to discuss and make transparent.  I want to point out a couple things that I think will make things more clear.  In this particular app, the treatment and control groups are treated as independent groups.  Based on my reading, this is certainly defensible and relatively common, but I have also read that it can be sometimes be better to not make this assumption. Without this assumption, the calculations for generating the posterior becomes a bit more complicated.  The posterior lift distribution was computed as follows from the control and treatment posteriors:
 
 Lift = (p_treatment - p_control) / p_control
 
