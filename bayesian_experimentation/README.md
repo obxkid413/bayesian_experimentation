@@ -46,4 +46,4 @@ streamlit run app.py
 Potential improvements include:
 
 - Add expected loss as a metric
-- Configurable prior distributions
+- Configurable prior distributions from the app
