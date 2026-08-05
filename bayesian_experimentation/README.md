@@ -7,7 +7,7 @@ An interactive Streamlit app that allows a user to simulate some A/B testing dat
 - Simulate randomized A/B test data
 - Visulization of performance for treatment and control groups
 - Overall summary statistics of performance 
-- Visualization of posterior distributions (can view the posterior at different points in time)
+- Visualization of posterior distributions (can view the posterior at different points in time and see how it evolves as new data comes in)
 - Posterior mean, median, credible intervals provided 
 - Adjustable lift thresholds to see what the probability is that the lift exceeds that threshold 
 
