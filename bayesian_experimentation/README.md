@@ -47,5 +47,3 @@ Potential improvements include:
 
 - Add expected loss as a metric
 - Configurable prior distributions
-
-I wanted to show expected loss in this iteration but I wanted to read more about that metric and how to interpret it more before inserting it here. From what little I understand so far, it's basically telling you the cost associated with choosing the wrong variant as the "winner".  
