@@ -32,11 +32,11 @@ For this particular exercise, I did not use PyMC which is another library that c
 
 #### Running the Application
 
-Install the project dependencies:
+If you want to run locally and play around with the code, follow this:
 
 pip install -r requirements.txt
 
-Launch the Streamlit application:
+Launch the Streamlit application by running:
 
 streamlit run app.py
 
