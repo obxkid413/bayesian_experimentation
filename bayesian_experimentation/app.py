@@ -23,7 +23,7 @@ st.divider()
 st.markdown("""
 A couple important notes about this app:
 - Underlying treatment conversion rate was set to 12% and the underlying control conversion rate was set to 10%, with randomness added in via binomial distribution
-- A prior alpha value was set to 100 and beta was set to 900, representing the baseline or control conversion rate we expect given historical data
+- A prior alpha value was set to 100 and beta was set to 900, representing the baseline or control conversion rate we expect given historical data but this was more just an arbitrary prior. Using a uninformative prior of 1,1 could be acceptable too.
 - Treatment and control groups are assumed to be independent when generating the posterior distributions
 """
 )
@@ -91,6 +91,7 @@ with right:
 st.divider()
 st.subheader("Posterior Lift Analysis")
 
+st.caption("Use the slider below to select the day in which you want to view the posterior. The latest day would be the posterior with the most evidence.")
 #if "posterior_samples" in st.session_state:
 select_day = st.slider('Select Day', min_value=1,
                            max_value=len(st.session_state.posterior_samples),
