@@ -1,6 +1,6 @@
 #### Bayesian A/B Testing Simulator
 
-An interactive Streamlit app that allows a user to simulate some A/B testing data and see how Bayesian inference could be used to make actual business decisions.  This app simulates random treatment and control groups, updates the posterior distribution, and provides plots so the user can explore how they changed over time for that particular experiment.  Note that the underlying conversion rates for treatment and control are set to 12% and 10%, respectively.
+An interactive Streamlit app that allows a user to simulate some A/B testing data and see how Bayesian inference could be used to make actual business decisions.  This app simulates random treatment and control groups, updates the posterior distribution, and provides plots so the user can explore how they changed over time for that particular experiment.  Note that currently, the underlying conversion rates for treatment and control are set to 12% and 10%, respectively but I will likely modify this at some point to be a user-controlled feature.
 
 #### Features
 
