@@ -17,7 +17,7 @@ The methods used here are important to discuss and make transparent.  I want to 
 
 Lift = (p_treatment - p_control) / p_control
 
-In addition, you'll notice I used the beta distribution as a prior.  The beta distribution reflects the actual type of data we are dealing with (e.g. conversion rates thus cannot be less than zero).  In addition, a nice perk of using this distribution is that it is a conjugate of the binomial distribution.  Because of this property, updating the beta prior with new data becomes simple addition as you can see in the code.  The assumption here is that the underlying observed data from the experiment is really a binomial process, that is, someone either converts or they do not convert.  
+In addition, you'll notice I used the beta distribution as a prior.  The beta distribution reflects the actual type of data we are dealing with (e.g. conversion rates thus cannot be less than zero).  In addition, a nice perk of using this distribution is that it is a conjugate of the binomial distribution.  Because of this property, updating the beta prior with new data becomes simple addition as you can see in the code.  The assumption here is that the underlying observed data from the experiment is really a binomial process, that is, someone either converts or they do not convert.  One could probably make the argument that modeling the lift distribution directly is a better route.
 
 For this particular exercise, I did not use PyMC which is another library that can be used for more complex modeling of posteriors.  
 
